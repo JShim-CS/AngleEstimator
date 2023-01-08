@@ -46,12 +46,17 @@ void AngleEstimate::runProgram() {
 	cv::Mat frame;
 
 	while (true) {
+		if (GetKeyState('C') & 0x8000) {
+			cap.release();
+			break;
+		}
+
 		cap.read(frame);
 		setUpMasks(frame);
 		findCont();
 		drawBoundingBoxesAndShowAngle(frame);
 
-		cv::imshow("test", frame);
+		cv::imshow("PRESS C TO EXIT", frame);
 		cv::waitKey(1);
 		//std::cout << mask.size() << "\n";
 		clearData();
