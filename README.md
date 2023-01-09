@@ -1,7 +1,8 @@
 # AngleEstimator
 AngleEstimator
 
-HSV Color masking method inspired by: @murtazasworkshop (on Youtube).
+HSV Color masking concept inspired by: @murtazasworkshop (on Youtube).
+
 Rest of the code is implemented by me
 
 1. press C to exit
