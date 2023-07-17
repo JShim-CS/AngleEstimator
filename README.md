@@ -1,7 +1,7 @@
 # AngleEstimator
 AngleEstimator
 
-Estimates the angle of a straight-lined objects such as pens, rectangular boxes relative to the horizon
+Estimates the angle of straight-lined objects such as pens, rectangular boxes relative to the horizon
 
 HSV Color masking concept inspired by: @murtazasworkshop (on Youtube).
 
