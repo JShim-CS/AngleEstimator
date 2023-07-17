@@ -11,3 +11,4 @@ Rest of the code is implemented by me
 4. Likewise, objects with straight line edges will be generate more accurate results
 5. this program only detects 0~90 degrees, once the object tilts over 90 degrees, it will measure the opposite side
 (i.e., if object is at roughly 110 degrees, it will measure 70 degrees; However, no direction is given)
+6. No GUI, sorry :)
