@@ -1,5 +1,5 @@
 #include "AngleEstimate.h"
-
+//@author Junhyung Shim
 void AngleEstimate::detectObject() {
 	cv::VideoCapture cap(0);
 	cv::Mat frame;
